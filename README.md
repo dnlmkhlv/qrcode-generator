@@ -16,4 +16,4 @@ For support or inquiries, please contact me via:
 - LinkedIn: [Daniil Mikhailov](https://www.linkedin.com/in/daniilmikhailov/)
 
 ## Preview
-![QR Code Generator Preview](assets/img/preview.png)
+![QR Code Generator App Preview](assets/img/preview.png)
