@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>QR Code Generator - Generate Your QR Code in Seconds</title>
+</head>
+<body>
+    <div class="hero">
+        <img class="logo" src="assets/images/logo.png" alt="Logo">
+
+        <div class="info">
+            <h1>Generate <span>QR Codes</span><br>Instantly for Free.</h1>
+            <p>Simplify your QR code creation process.<br>Enter your content and hit "Generate".</p>
+        </div>
+
+        <div class="container">
+            <p>Enter your text or URL:</p>
+            <input type="text" placeholder="Text or URL" id="qrtext">
+            <div id="display-box">
+                <img src="" id="qrimage">
+                <a id="downloadButton" class="download-link" href="#" download="QR_Code.png">
+                    <i class='fa fa-download'></i> Download QR Code
+                </a>
+            </div>
+            <button onclick="GenerateQR()">GENERATE NOW</button>
+        </div>
+
+        <div class="author-info">
+            <p>Made with love by Daniil </p>
+            <a href="https://github.com/dnlmkhlv" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"> </script>
+    
+</body>
+</html>

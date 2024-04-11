@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .5s ease-in-out;
+    font-family: "DM Sans";
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info span {
+    color: #c1ff72;
+}
+
+.info h1 {
+    font-size: 42px;
+}
+
+.info p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+.container {
+    color: white;
+    text-align: center;
+}
+
+.container p {
+    margin-bottom: 5px;
+}
+
+.container input {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block; 
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #c1ff72;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    color: #c1ff72;
+}
+
+#display-box {
+    display: none;
+    margin-top: 20px;
+}
+
+#display-box.show-img {
+    display: block;
+}
+
+#display-box i {
+    color: #c1ff72;
+}
+
+#display-box .download-link {
+    color: #c1ff72;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#qrimage {
+    max-width: 100%; 
+}
+
+/* Add this CSS to your existing styles */
+
+.author-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.author-info p {
+    font-size: 16px;
+    color: #c1ff72;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.author-info a {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    transition: color 0.3s;
+}
+
+.author-info a:hover {
+    color: #c1ff72;
+}
