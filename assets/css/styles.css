@@ -3,18 +3,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     transition: .5s ease-in-out;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
 }
 
 .hero {
     height: 100vh;
     width: 100%;
+    min-width: 200px;
     background: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.logo {
+    width: 150px;
 }
 
 .info {
@@ -93,8 +99,6 @@ button:hover {
     max-width: 100%; 
 }
 
-/* Add this CSS to your existing styles */
-
 .author-info {
     margin-top: 20px;
     text-align: center;
@@ -107,7 +111,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.author-info a {
+.author-info i {
     color: white;
     text-decoration: none;
     font-size: 32px;
@@ -115,5 +119,9 @@ button:hover {
 }
 
 .author-info a:hover {
+    color: #c1ff72;
+}
+
+.author-info a:hover i {
     color: #c1ff72;
 }
